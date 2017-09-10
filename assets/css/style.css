@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+
+}
+html{
+    background: url(../images/background.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    margin-top: 2%;
+}
+
+
+
+h2{
+  font-size: 25px;
+  text-align: center;
+  margin: 10% auto;
+  color: #ffffff;
+}
+
+.container{
+    margin: 0% 10% auto;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+ul{
+  display: block;
+  margin-left: 8%;
+  width: 100%;
+  
+}
+
+li{
+  float: left;
+  
+}
+
+#footer{
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  left: 0px;
+}
