@@ -36,21 +36,41 @@ h2{
 }
 ul{
   display: block;
-  margin-left: 8%;
   width: 100%;
   
 }
 
 li{
   float: left;
+  margin-left: 30%;
   
 }
 
 #footer{
-  position: fixed;
+  position: relative;
   bottom: 0px;
   text-align: center;
   width: 100%;
   color: #ffffff;
   left: 0px;
+}
+
+p{
+  color: #ffffff;
+}
+
+#attackBtn{
+  float: right;
+  color: #000000;
+}
+
+#atkbtn{
+  color:#000000;
+}
+
+
+.character{
+  float: left;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
