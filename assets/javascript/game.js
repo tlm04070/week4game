@@ -7,7 +7,7 @@ var blackmage = {
     healthPoints: 400,
     attackPower: 50,
     counterAttackPower: 20, 
-}
+};
 
 
 
@@ -17,7 +17,7 @@ var goomba = {
     healthPoints: 275,
     attackPower: 75,
     counterAttackPower: 25,
-}
+};
 
 
 
@@ -28,7 +28,7 @@ var aginah = {
     healthPoints: 550,
     attackPower: 35,
     counterAttackPower: 15,
-}
+};
 
 
 
@@ -40,7 +40,7 @@ var invaders = {
     healthPoints: 600,
     attackPower: 30,
     counterAttackPower: 10,
-}
+};
 
 
 
@@ -70,6 +70,51 @@ $("#invadersName").append(invaders.name);
 $("#invadersHealthPoints").append(invaders.healthPoints);
 $("#invadersAttackPower").append(invaders.attackPower);
 $("#invadersCounterAttackPower").append(invaders.counterAttackPower);
+
+
+//select a character to move it to the player location
+
+      $(".character").on('click', function picked() {
+         var picked = $(this).html();
+        $("#player p").append(picked);
+        $(this).hide(this);
+    $(".character").on("click", function opponent() {
+            var opponent = $(this).html();
+           $("#opponent p").append(opponent);
+            $(".list").hide(this);
+            $("#player p").hide(this.picked);
+            
+         });
+            });
+
+    
+    
+        
+         
+
+
+        
+   
+         
+    //      $("#player").hide($(".character"));
+         
+    //  });
+   
+    //  $(".character").on("click", function opponent() {
+    //      var opponent = $(this).html();
+    //      $("#opponent").append(opponent);
+    //       $(this).hide(this);
+    //      $("#player").hide(this);
+    //     $(".list").hide(this);
+    //  });
+
+
+
+
+
+
+
+
 
 
 
